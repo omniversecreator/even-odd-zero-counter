@@ -8,7 +8,6 @@ int main()
 {
 	int numbers_of_integers;
 	int array_element;
-	int number_list[numbers_of_integers];
 	int odd=0, even=0, zero=0;
 	
 	cout<<"This program is for classifying integer number"<<endl;
@@ -18,6 +17,7 @@ int main()
 	//Setting the numbers of integers to be read
 	cout<<"Enter the numbers of integers you want to read:";
 	cin>>numbers_of_integers;
+	int number_list[numbers_of_integers];
 	cout<<endl;
 	cout<<endl;
 	
